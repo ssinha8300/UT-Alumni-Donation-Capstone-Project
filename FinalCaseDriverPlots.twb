@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0325.1233                               -->
+<workbook original-version='18.1' source-build='2021.4.5 (20214.22.0325.1233)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='totalcash' inline='true' name='federated.1x27dsu0unc2t61fkm5qr0w8tq8u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='totalcash' name='textscan.09b8dx81crzvw2129085d0x59nxf'>
+            <connection class='textscan' directory='C:/Users/Sneha Sinha/Desktop/UTK Spring 2022/BAS 479/Final Case' filename='totalcash.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.09b8dx81crzvw2129085d0x59nxf' name='totalcash.csv' table='[totalcash#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='GENDER' ordinal='0' />
+            <column datatype='string' name='MARITAL_STATUS' ordinal='1' />
+            <column datatype='string' name='PHONE_NUMBER' ordinal='2' />
+            <column datatype='string' name='EMAIL_ADDRESS' ordinal='3' />
+            <column datatype='string' name='DEGREE_1_GRAD_YEAR' ordinal='4' />
+            <column datatype='string' name='DEGREE_1_TYPE' ordinal='5' />
+            <column datatype='string' name='TWITTER' ordinal='6' />
+            <column datatype='string' name='LINKEDIN' ordinal='7' />
+            <column datatype='string' name='FACEBOOK' ordinal='8' />
+            <column datatype='integer' name='NUM_UT_FAMILY_RELATIONSHIPS' ordinal='9' />
+            <column datatype='integer' name='NUM_STUDENT_ACTIVITIES' ordinal='10' />
+            <column datatype='string' name='FRATERNITY_SORORITY' ordinal='11' />
+            <column datatype='string' name='BAND' ordinal='12' />
+            <column datatype='string' name='HONOR_SOCIETY' ordinal='13' />
+            <column datatype='string' name='STUDENT_GOVT' ordinal='14' />
+            <column datatype='string' name='NUM_ALUMNI_EVENTS' ordinal='15' />
+            <column datatype='string' name='ESTIMATED_GIFT_CAPACITY' ordinal='16' />
+            <column datatype='string' name='ESTIMATED_INCOME' ordinal='17' />
+            <column datatype='string' name='ESTIMATED_NET_WORTH' ordinal='18' />
+            <column datatype='string' name='ESTIMATED_TOTAL_ASSETS' ordinal='19' />
+            <column datatype='string' name='ATHLETICS_DONOR' ordinal='20' />
+            <column datatype='integer' name='ANNUITY_LIKELIHOOD' ordinal='21' />
+            <column datatype='integer' name='BEQUEST_LIKELIHOOD' ordinal='22' />
+            <column datatype='integer' name='CRT_LIKELIHOOD' ordinal='23' />
+            <column datatype='string' name='DONATED_LAST_10YEARS' ordinal='24' />
+            <column datatype='real' name='LOG_TOTAL_CASH' ordinal='25' />
+            <column datatype='string' name='AGE_AT_GRADUATION' ordinal='26' />
+            <column datatype='string' name='SPORTS_YES_NO' ordinal='27' />
+            <column datatype='string' name='ALUM_ACTIVITY_YES_NO' ordinal='28' />
+            <column datatype='string' name='FavGame' ordinal='29' />
+            <column datatype='real' name='ClickReceiveRatio' ordinal='30' />
+            <column datatype='real' name='OpenReceiveRatio' ordinal='31' />
+            <column datatype='real' name='ClickOpenRatio' ordinal='32' />
+            <column datatype='real' name='TOTAL_CASH' ordinal='33' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.09b8dx81crzvw2129085d0x59nxf' name='totalcash.csv' table='[totalcash#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='GENDER' ordinal='0' />
+            <column datatype='string' name='MARITAL_STATUS' ordinal='1' />
+            <column datatype='string' name='PHONE_NUMBER' ordinal='2' />
+            <column datatype='string' name='EMAIL_ADDRESS' ordinal='3' />
+            <column datatype='string' name='DEGREE_1_GRAD_YEAR' ordinal='4' />
+            <column datatype='string' name='DEGREE_1_TYPE' ordinal='5' />
+            <column datatype='string' name='TWITTER' ordinal='6' />
+            <column datatype='string' name='LINKEDIN' ordinal='7' />
+            <column datatype='string' name='FACEBOOK' ordinal='8' />
+            <column datatype='integer' name='NUM_UT_FAMILY_RELATIONSHIPS' ordinal='9' />
+            <column datatype='integer' name='NUM_STUDENT_ACTIVITIES' ordinal='10' />
+            <column datatype='string' name='FRATERNITY_SORORITY' ordinal='11' />
+            <column datatype='string' name='BAND' ordinal='12' />
+            <column datatype='string' name='HONOR_SOCIETY' ordinal='13' />
+            <column datatype='string' name='STUDENT_GOVT' ordinal='14' />
+            <column datatype='string' name='NUM_ALUMNI_EVENTS' ordinal='15' />
+            <column datatype='string' name='ESTIMATED_GIFT_CAPACITY' ordinal='16' />
+            <column datatype='string' name='ESTIMATED_INCOME' ordinal='17' />
+            <column datatype='string' name='ESTIMATED_NET_WORTH' ordinal='18' />
+            <column datatype='string' name='ESTIMATED_TOTAL_ASSETS' ordinal='19' />
+            <column datatype='string' name='ATHLETICS_DONOR' ordinal='20' />
+            <column datatype='integer' name='ANNUITY_LIKELIHOOD' ordinal='21' />
+            <column datatype='integer' name='BEQUEST_LIKELIHOOD' ordinal='22' />
+            <column datatype='integer' name='CRT_LIKELIHOOD' ordinal='23' />
+            <column datatype='string' name='DONATED_LAST_10YEARS' ordinal='24' />
+            <column datatype='real' name='LOG_TOTAL_CASH' ordinal='25' />
+            <column datatype='string' name='AGE_AT_GRADUATION' ordinal='26' />
+            <column datatype='string' name='SPORTS_YES_NO' ordinal='27' />
+            <column datatype='string' name='ALUM_ACTIVITY_YES_NO' ordinal='28' />
+            <column datatype='string' name='FavGame' ordinal='29' />
+            <column datatype='real' name='ClickReceiveRatio' ordinal='30' />
+            <column datatype='real' name='OpenReceiveRatio' ordinal='31' />
+            <column datatype='real' name='ClickOpenRatio' ordinal='32' />
+            <column datatype='real' name='TOTAL_CASH' ordinal='33' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MARITAL_STATUS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MARITAL_STATUS]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>MARITAL_STATUS</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PHONE_NUMBER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PHONE_NUMBER]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>PHONE_NUMBER</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMAIL_ADDRESS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EMAIL_ADDRESS]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>EMAIL_ADDRESS</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEGREE_1_GRAD_YEAR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DEGREE_1_GRAD_YEAR]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>DEGREE_1_GRAD_YEAR</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEGREE_1_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DEGREE_1_TYPE]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>DEGREE_1_TYPE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TWITTER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TWITTER]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>TWITTER</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LINKEDIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LINKEDIN]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>LINKEDIN</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FACEBOOK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FACEBOOK]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>FACEBOOK</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUM_UT_FAMILY_RELATIONSHIPS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUM_UT_FAMILY_RELATIONSHIPS]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>NUM_UT_FAMILY_RELATIONSHIPS</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUM_STUDENT_ACTIVITIES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUM_STUDENT_ACTIVITIES]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>NUM_STUDENT_ACTIVITIES</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FRATERNITY_SORORITY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FRATERNITY_SORORITY]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>FRATERNITY_SORORITY</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BAND</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BAND]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>BAND</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HONOR_SOCIETY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HONOR_SOCIETY]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>HONOR_SOCIETY</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STUDENT_GOVT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STUDENT_GOVT]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>STUDENT_GOVT</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUM_ALUMNI_EVENTS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NUM_ALUMNI_EVENTS]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>NUM_ALUMNI_EVENTS</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ESTIMATED_GIFT_CAPACITY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ESTIMATED_GIFT_CAPACITY]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ESTIMATED_GIFT_CAPACITY</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ESTIMATED_INCOME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ESTIMATED_INCOME]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ESTIMATED_INCOME</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ESTIMATED_NET_WORTH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ESTIMATED_NET_WORTH]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ESTIMATED_NET_WORTH</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ESTIMATED_TOTAL_ASSETS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ESTIMATED_TOTAL_ASSETS]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ESTIMATED_TOTAL_ASSETS</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATHLETICS_DONOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ATHLETICS_DONOR]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ATHLETICS_DONOR</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANNUITY_LIKELIHOOD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ANNUITY_LIKELIHOOD]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ANNUITY_LIKELIHOOD</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BEQUEST_LIKELIHOOD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BEQUEST_LIKELIHOOD]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>BEQUEST_LIKELIHOOD</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRT_LIKELIHOOD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CRT_LIKELIHOOD]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>CRT_LIKELIHOOD</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DONATED_LAST_10YEARS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DONATED_LAST_10YEARS]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>DONATED_LAST_10YEARS</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOG_TOTAL_CASH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LOG_TOTAL_CASH]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>LOG_TOTAL_CASH</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE_AT_GRADUATION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AGE_AT_GRADUATION]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>AGE_AT_GRADUATION</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPORTS_YES_NO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPORTS_YES_NO]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>SPORTS_YES_NO</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALUM_ACTIVITY_YES_NO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALUM_ACTIVITY_YES_NO]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ALUM_ACTIVITY_YES_NO</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FavGame</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FavGame]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>FavGame</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ClickReceiveRatio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ClickReceiveRatio]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ClickReceiveRatio</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OpenReceiveRatio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OpenReceiveRatio]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>OpenReceiveRatio</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ClickOpenRatio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ClickOpenRatio]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>ClickOpenRatio</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_CASH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_CASH]</local-name>
+            <parent-name>[totalcash.csv]</parent-name>
+            <remote-alias>TOTAL_CASH</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age At Graduation' datatype='string' name='[AGE_AT_GRADUATION]' role='dimension' type='nominal' />
+      <column caption='Alum Activity Yes No' datatype='string' name='[ALUM_ACTIVITY_YES_NO]' role='dimension' type='nominal' />
+      <column caption='Annuity Likelihood' datatype='integer' name='[ANNUITY_LIKELIHOOD]' role='measure' type='quantitative' />
+      <column caption='Athletics Donor' datatype='string' name='[ATHLETICS_DONOR]' role='dimension' type='nominal' />
+      <column caption='Band' datatype='string' name='[BAND]' role='dimension' type='nominal' />
+      <column caption='Bequest Likelihood' datatype='integer' name='[BEQUEST_LIKELIHOOD]' role='measure' type='quantitative' />
+      <column caption='Crt Likelihood' datatype='integer' name='[CRT_LIKELIHOOD]' role='measure' type='quantitative' />
+      <column caption='Click Open Ratio' datatype='real' name='[ClickOpenRatio]' role='measure' type='quantitative' />
+      <column caption='Click Receive Ratio' datatype='real' name='[ClickReceiveRatio]' role='measure' type='quantitative' />
+      <column caption='Degree 1 Grad Year' datatype='string' name='[DEGREE_1_GRAD_YEAR]' role='dimension' type='nominal' />
+      <column caption='Degree 1 Type' datatype='string' name='[DEGREE_1_TYPE]' role='dimension' type='nominal' />
+      <column caption='Donated Last 10 Yrs' datatype='string' name='[DONATED_LAST_10YEARS]' role='dimension' type='nominal' />
+      <column caption='Email Address' datatype='string' name='[EMAIL_ADDRESS]' role='dimension' type='nominal' />
+      <column caption='Estimated Gift Capacity' datatype='string' name='[ESTIMATED_GIFT_CAPACITY]' role='dimension' type='nominal' />
+      <column caption='Estimated Income' datatype='string' name='[ESTIMATED_INCOME]' role='dimension' type='nominal' />
+      <column caption='Estimated Net Worth' datatype='string' name='[ESTIMATED_NET_WORTH]' role='dimension' type='nominal' />
+      <column caption='Estimated Total Assets' datatype='string' name='[ESTIMATED_TOTAL_ASSETS]' role='dimension' type='nominal' />
+      <column caption='Facebook' datatype='string' name='[FACEBOOK]' role='dimension' type='nominal' />
+      <column caption='Fraternity Sorority' datatype='string' name='[FRATERNITY_SORORITY]' role='dimension' type='nominal' />
+      <column caption='Fav Game' datatype='string' name='[FavGame]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+      <column caption='Honor Society' datatype='string' name='[HONOR_SOCIETY]' role='dimension' type='nominal' />
+      <column caption='Linkedin' datatype='string' name='[LINKEDIN]' role='dimension' type='nominal' />
+      <column caption='Log Total Cash' datatype='real' name='[LOG_TOTAL_CASH]' role='measure' type='quantitative' />
+      <column caption='Marital Status' datatype='string' name='[MARITAL_STATUS]' role='dimension' type='nominal' />
+      <column caption='Num Alumni Events' datatype='string' name='[NUM_ALUMNI_EVENTS]' role='dimension' type='nominal' />
+      <column caption='Num Student Activities' datatype='integer' name='[NUM_STUDENT_ACTIVITIES]' role='measure' type='quantitative' />
+      <column caption='Num Ut Family Relationships' datatype='integer' name='[NUM_UT_FAMILY_RELATIONSHIPS]' role='measure' type='quantitative' />
+      <column caption='Open Receive Ratio' datatype='real' name='[OpenReceiveRatio]' role='measure' type='quantitative' />
+      <column caption='Phone Number' datatype='string' name='[PHONE_NUMBER]' role='dimension' type='nominal' />
+      <column caption='Sports Yes No' datatype='string' name='[SPORTS_YES_NO]' role='dimension' type='nominal' />
+      <column caption='Student Govt' datatype='string' name='[STUDENT_GOVT]' role='dimension' type='nominal' />
+      <column caption='Total Cash' datatype='real' name='[TOTAL_CASH]' role='measure' type='quantitative' />
+      <column caption='Twitter' datatype='string' name='[TWITTER]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='totalcash.csv' datatype='table' name='[__tableau_internal_object_id__].[totalcash.csv_4A477E7F88FB49529155FF4BEF40097F]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='totalcash.csv' id='totalcash.csv_4A477E7F88FB49529155FF4BEF40097F'>
+            <properties context=''>
+              <relation connection='textscan.09b8dx81crzvw2129085d0x59nxf' name='totalcash.csv' table='[totalcash#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='GENDER' ordinal='0' />
+                  <column datatype='string' name='MARITAL_STATUS' ordinal='1' />
+                  <column datatype='string' name='PHONE_NUMBER' ordinal='2' />
+                  <column datatype='string' name='EMAIL_ADDRESS' ordinal='3' />
+                  <column datatype='string' name='DEGREE_1_GRAD_YEAR' ordinal='4' />
+                  <column datatype='string' name='DEGREE_1_TYPE' ordinal='5' />
+                  <column datatype='string' name='TWITTER' ordinal='6' />
+                  <column datatype='string' name='LINKEDIN' ordinal='7' />
+                  <column datatype='string' name='FACEBOOK' ordinal='8' />
+                  <column datatype='integer' name='NUM_UT_FAMILY_RELATIONSHIPS' ordinal='9' />
+                  <column datatype='integer' name='NUM_STUDENT_ACTIVITIES' ordinal='10' />
+                  <column datatype='string' name='FRATERNITY_SORORITY' ordinal='11' />
+                  <column datatype='string' name='BAND' ordinal='12' />
+                  <column datatype='string' name='HONOR_SOCIETY' ordinal='13' />
+                  <column datatype='string' name='STUDENT_GOVT' ordinal='14' />
+                  <column datatype='string' name='NUM_ALUMNI_EVENTS' ordinal='15' />
+                  <column datatype='string' name='ESTIMATED_GIFT_CAPACITY' ordinal='16' />
+                  <column datatype='string' name='ESTIMATED_INCOME' ordinal='17' />
+                  <column datatype='string' name='ESTIMATED_NET_WORTH' ordinal='18' />
+                  <column datatype='string' name='ESTIMATED_TOTAL_ASSETS' ordinal='19' />
+                  <column datatype='string' name='ATHLETICS_DONOR' ordinal='20' />
+                  <column datatype='integer' name='ANNUITY_LIKELIHOOD' ordinal='21' />
+                  <column datatype='integer' name='BEQUEST_LIKELIHOOD' ordinal='22' />
+                  <column datatype='integer' name='CRT_LIKELIHOOD' ordinal='23' />
+                  <column datatype='string' name='DONATED_LAST_10YEARS' ordinal='24' />
+                  <column datatype='real' name='LOG_TOTAL_CASH' ordinal='25' />
+                  <column datatype='string' name='AGE_AT_GRADUATION' ordinal='26' />
+                  <column datatype='string' name='SPORTS_YES_NO' ordinal='27' />
+                  <column datatype='string' name='ALUM_ACTIVITY_YES_NO' ordinal='28' />
+                  <column datatype='string' name='FavGame' ordinal='29' />
+                  <column datatype='real' name='ClickReceiveRatio' ordinal='30' />
+                  <column datatype='real' name='OpenReceiveRatio' ordinal='31' />
+                  <column datatype='real' name='ClickOpenRatio' ordinal='32' />
+                  <column datatype='real' name='TOTAL_CASH' ordinal='33' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='totalcash' name='federated.1x27dsu0unc2t61fkm5qr0w8tq8u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1x27dsu0unc2t61fkm5qr0w8tq8u'>
+            <column caption='Donated Last 10 Yrs' datatype='string' name='[DONATED_LAST_10YEARS]' role='dimension' type='nominal' />
+            <column caption='Total Cash' datatype='real' name='[TOTAL_CASH]' role='measure' type='quantitative' />
+            <column-instance column='[TOTAL_CASH]' derivation='Avg' name='[avg:TOTAL_CASH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DONATED_LAST_10YEARS]' derivation='None' name='[none:DONATED_LAST_10YEARS:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[none:DONATED_LAST_10YEARS:nk]' value='78' />
+            <format attr='text-format' field='[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[avg:TOTAL_CASH:qk]' value='C1033%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[none:DONATED_LAST_10YEARS:nk]' value='204' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[avg:TOTAL_CASH:qk]' />
+              <text column='[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[avg:TOTAL_CASH:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[none:DONATED_LAST_10YEARS:nk]</rows>
+        <cols>[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[avg:TOTAL_CASH:qk]</cols>
+      </table>
+      <simple-id uuid='{7EE6A151-2FEF-463C-A59D-F8EF5C820971}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[avg:TOTAL_CASH:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[avg:TOTAL_CASH:qk]</field>
+            <field>[federated.1x27dsu0unc2t61fkm5qr0w8tq8u].[none:DONATED_LAST_10YEARS:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AB55AE17-3096-40E2-933F-42D70C8653EA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
